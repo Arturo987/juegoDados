@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivina el número</title>
+  </head>
+  <body>
+    <header>
+      <h1>Adivina el número</h1>
+      <p class="entre">Entre 1 y 20</p>
+      <button class="btn repetir">Repetir</button>
+      <div class="numero">?</div>
+    </header>
+    <main>
+      <section class="izquierda">
+        <input type="numero" class="adivinar" />
+        <button class="btn comprobar">Comprobar</button>
+      </section>
+      <section class="derecha">
+        <p class="mensaje">Empezar a adivinar...</p>
+        <p class="etiqueta-puntuacion">
+          💯 Puntuación: <span class="puntuacion">20</span>
+        </p>
+        <p>🥇 Record: <span class="record">0</span></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
